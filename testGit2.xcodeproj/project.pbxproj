@@ -14,6 +14,8 @@
 		000F72171AE73F4D00DB1564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000F72161AE73F4D00DB1564 /* Images.xcassets */; };
 		000F721A1AE73F4D00DB1564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000F72181AE73F4D00DB1564 /* LaunchScreen.xib */; };
 		000F72261AE73F4D00DB1564 /* testGit2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F72251AE73F4D00DB1564 /* testGit2Tests.m */; };
+		000F72321AE7419500DB1564 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F72301AE7419500DB1564 /* TestViewController.m */; };
+		000F72331AE7419500DB1564 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000F72311AE7419500DB1564 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		000F721F1AE73F4D00DB1564 /* testGit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000F72241AE73F4D00DB1564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000F72251AE73F4D00DB1564 /* testGit2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGit2Tests.m; sourceTree = "<group>"; };
+		000F722F1AE7419500DB1564 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		000F72301AE7419500DB1564 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		000F72311AE7419500DB1564 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				000F72161AE73F4D00DB1564 /* Images.xcassets */,
 				000F72181AE73F4D00DB1564 /* LaunchScreen.xib */,
 				000F72091AE73F4D00DB1564 /* Supporting Files */,
+				000F722F1AE7419500DB1564 /* TestViewController.h */,
+				000F72301AE7419500DB1564 /* TestViewController.m */,
+				000F72311AE7419500DB1564 /* TestViewController.xib */,
 			);
 			path = testGit2;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 			files = (
 				000F72151AE73F4D00DB1564 /* Main.storyboard in Resources */,
 				000F721A1AE73F4D00DB1564 /* LaunchScreen.xib in Resources */,
+				000F72331AE7419500DB1564 /* TestViewController.xib in Resources */,
 				000F72171AE73F4D00DB1564 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				000F72121AE73F4D00DB1564 /* ViewController.m in Sources */,
 				000F720F1AE73F4D00DB1564 /* AppDelegate.m in Sources */,
+				000F72321AE7419500DB1564 /* TestViewController.m in Sources */,
 				000F720C1AE73F4D00DB1564 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
